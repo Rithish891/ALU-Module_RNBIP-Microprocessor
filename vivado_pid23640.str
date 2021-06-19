@@ -1,0 +1,94 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 23640
+
+Current time: 	11/15/19 6:12:01 PM IST
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/software/xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Srikar
+User home directory: C:/Users/Srikar
+User working directory: E:/final_Project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: D:/software/xilinx/Vivado
+RDI Data directory: D:/software/xilinx/Vivado/2016.2/data
+RDI Bin directory: D:/software/xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Srikar/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Srikar/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	214 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 510 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\final_Project\final_Project.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 40 MB (+39610kb) [00:00:10]
+// [Engine Memory]: 415 MB (+283671kb) [00:00:10]
+// Tcl Message: open_project E:/final_Project/final_Project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/final_Project/final_Project.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Vivado projects/final_Project' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 71 MB (+30618kb) [00:00:13]
+// [Engine Memory]: 510 MB (+77368kb) [00:00:13]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 510 MB. GUI used memory: 34 MB. Current time: 11/15/19 6:12:01 PM IST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: final_Project; location: E:/final_Project; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 811.379 ; gain = 135.031 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// PAPropertyPanels.initPanels (Flag_Register.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Flag_Register.v]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Flag_Register.v]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [Engine Memory]: 538 MB (+3470kb) [00:00:27]
+// Elapsed time: 33 seconds
+selectCodeEditor("Flag_Register.v", 131, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALU (ALU.v)]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALU (ALU.v)]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 28 seconds
+selectCodeEditor("ALU.v", 166, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ALU.v", 166, 448, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("ALU.v", 166, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ALU.v", 138, 488); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("ALU.v", 238, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ALU.v", 94, 549); // bH:N (JPanel:JComponent, cv:JFrame)

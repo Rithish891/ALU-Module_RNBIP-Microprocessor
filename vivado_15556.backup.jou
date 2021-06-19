@@ -1,0 +1,91 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Nov 27 11:59:32 2019
+# Process ID: 15556
+# Current directory: C:/Users/Srikar/Desktop/final_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29544 C:\Users\Srikar\Desktop\final_Project\final_Project.xpr
+# Log file: C:/Users/Srikar/Desktop/final_Project/vivado.log
+# Journal file: C:/Users/Srikar/Desktop/final_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Srikar/Desktop/final_Project/final_Project.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/f1/C}} 
+restart
+run all
+add_wave {{/ALU_tb/a1/Out}} 
+restart
+run all
+close_sim
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+restart
+run all
+close_sim
+launch_simulation
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+restart
+run 100 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+add_wave {{/ALU_tb/a1/Flag_Out[3]}} 
+add_wave {{/ALU_tb/a1/Flag_Out[2]}} 
+add_wave {{/ALU_tb/a1/Flag_Out[0]}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source ALU_tb.tcl
+close_sim
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+restart
+run 1000 ns
+close_sim
+launch_simulation
+source ALU_tb.tcl
+add_wave {{/ALU_tb/a1/Flag_Out[1]}} 
+restart
+run 1000 ns
+close_sim
